@@ -36,3 +36,6 @@
 *.jpeg
 *.gif
 *.png
+
+# Ignore uploaded test images.
+/public/uploads

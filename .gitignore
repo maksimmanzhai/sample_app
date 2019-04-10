@@ -31,3 +31,8 @@
 /config/master.key
 
 /spring/*.pid
+
+*.jpg
+*.jpeg
+*.gif
+*.png

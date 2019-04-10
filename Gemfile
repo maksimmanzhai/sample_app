@@ -14,7 +14,7 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'carrierwave'
 gem 'mini_magick'
-gem 'fog'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,6 +50,7 @@ end
 
 group :production do
   # gem 'pg'
+  gem 'fog'
   gem 'rails_12factor'
   gem 'puma', '~> 3.11'
 end

@@ -49,7 +49,7 @@ group :development, :test do
 end
 
 group :production do
-  # gem 'pg'
+  gem 'pg'
   gem 'fog'
   gem 'rails_12factor'
   gem 'puma', '~> 3.11'
